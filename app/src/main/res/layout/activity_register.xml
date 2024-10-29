@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.features.home.views.chat.RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/R_Nombre_User"
+            android:hint="@string/R_Nombre_User"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/R_Email"
+            android:hint="@string/R_Email"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/R_Password"
+            android:hint="@string/R_Password"
+            android:inputType="textPassword"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/R_r_Password"
+            android:hint="@string/R_r_Password"
+            android:inputType="textPassword"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/R_Btn_Registrar"
+            android:text="@string/R_Btn_Registrar"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">GetVet</string>
+    <string name="owner">Propietario</string>
+    <string name="pet">Mascota</string>
+    <string name="addTitle">Añadir cita</string>
+    <string name="date">Fecha </string>
+    <string name="hour">Hora </string>
+    <string name="subject">Asunto</string>
+    <string name="details">Detalles (Opcional)</string>
+    <string name="save">Guardar</string>
+    <string name="detailTextfield">Sin observaciones</string>
+    <string name="cancel">Cancelar</string>
+    <string name="noAppointments">Nada que mostrar…</string>
+    <string name="modifyAppt">Modificar cita</string>
+    <string name="name">Nombre</string>
+    <string name="lastName">Apellidos</string>
+    <string name="address">Dirección</string>
+    <string name="email">Email</string>
+    <string name="phone">Teléfono</string>
+    <string name="client">Cliente</string>
+    <string name="chat">Chat</string>
+    <string name="adopcion">Adopcion</string>
+    <string name="since">Cliente desde:</string>
+    <string name="pets">Mascotas</string>
+    <string name="add">Añadir</string>
+    <string name="id">DPI</string>
+    <string name="unavailableDate">Fecha no disponible</string>
+    <string name="savedChanges">Cambios guardados</string>
+    <string name="clients">Clientes</string>
+    <string name="appointments">Citas</string>
+    <string name="search">Buscar</string>
+    <string name="delete">Eliminar</string>
+    <string name="deleteDescription">Una vez se elimine, no se podrá recuperar</string>
+    <string name="confirmDelete">¿Desea eliminar?</string>
+    <string name="confirmDeleteClient">¿Eliminar cliente?</string>
+    <string name="addPet">Añadir mascota</string>
+    <string name="birthDate">Fecha nacimiento</string>
+    <string name="breed">Raza</string>
+    <string name="chipNumber">Microchip</string>
+    <string name="passportNumber">Pasaporte</string>
+    <string name="color">Color</string>
+    <string name="neutered">Esterilizado</string>
+    <string name="petTitle">Mascota</string>
+    <string name="addClient">Añadir cliente</string>
+    <string name="optional">Opcional</string>
+    <string name="monitoring">Seguimiento</string>
+    <string name="yes">Si</string>
+    <string name="no">No</string>
+    <string name="warning">¡ATENCIÓN!</string>
+    <string name="deleteClientDesc">Al eliminar el cliente se eliminarán las mascotas y el seguimiento de las mismas</string>
+    <string name="nothingToShow">Nada para mostrar</string>
+    <string name="writeSomething">Escribe algo…</string>
+    <string name="loadingData">Cargando datos</string>
+    <string name="password">Contraseña</string>
+    <string name="login">Login</string>
+    <string name="errorLogin">Usuario o contraseña incorrectos</string>
+    <string name="register">Registro</string>
+    <string name="toLogin">Navegar hacia login</string>
+    <string name="repeatPassword">Repita la contraseña</string>
+    <string name="fullName">Nombre completo</string>
+    <string name="createAccount">Registrarse</string>
+    <string name="equalPass">La contraseña debe coincidir</string>
+    <string name="passLength">8 – 16 caracteres</string>
+    <string name="invalidEmail">Email no válido</string>
+    <string name="createSuccess">Usuario creado con éxito</string>
+    <string name="createFailure">Usuario ya registrado</string>
+    <string name="settings">Ajustes</string>
+    <string name="logout">Cerrar sesión</string>
+    <string name="deleteAccount">Eliminar cuenta</string>
+    <string name="newPass">Nueva contraseña</string>
+    <string name="deleteSuccess">Usuario borrado con éxito</string>
+    <string name="deleteFailure">Error al borrar usuario</string>
+    <string name="successSent">Email enviado</string>
+    <string name="failureSent">Error al enviar</string>
+    <string name="send">Enviar</string>
+    <string name="noAccountYet">¿Aún no tienes cuenta?</string>
+    <string name="doRegister">Regístrate</string>
+    <string name="recoverPassword">Recuperar contraseña</string>
+    <string name="verifiedAccount">Cuenta verificada</string>
+    <string name="waitingVerified">Esperando verificación</string>
+    <string name="nonOptionalDetail">Detalles</string>
+    <string name="consultations">Consultas</string>
+    <string name="addConsultation">Añadir consulta</string>
+    <string name="consultation">Consulta</string>
+    <string name="savedAppointment">Cita guardada</string>
+    <string name="appointmentError">Algo salió mal</string>
+    <string name="continueDelete">Se procederá a borrar el usuario y perderá el acceso a su cuenta y los datos asociados</string>
+    <string name="modifyConsultation">Para modificar una consulta existente introduce la fecha y la hora de la misma y, a continuación, dale a guardar</string>
+
+
+    <string name="date_format">%1$d-%2$s-%3$s</string>
+
+    <string name="title_activity_adopcion_screen">AdopcionScreen</string>
+    <string name="title_activity_splash">Chat Entusiastas</string>
+    <string name="name_desarrollador">GestVet Salud Animal</string>
+
+    <string name="Btn_Registro">Registrarme</string>
+    <string name="Btn_Login">Ingresar</string>
+
+    <string name="R_Nombre_User">Nombre</string>
+    <string name="R_Email">Correo Eléctrónico</string>
+    <string name="R_Password">Contraseña</string>
+    <string name="R_r_Password">Repita su Contraseña</string>
+    <string name="R_Btn_Registrar">Registrar</string>
+
+
+</resources>

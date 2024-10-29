@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.features.home.views.adop.TipsActivity1">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/tipsTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Consejos para tus Mascotas"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:paddingBottom="16dp" />
+
+        <TextView
+            android:id="@+id/bathingTips"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cómo Bañarlas:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/bathingInstructions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Usa agua tibia y un champú adecuado para su tipo de piel.\n2. Baña a tu mascota cada 4 a 6 semanas.\n3. Asegúrate de secar bien su pelaje para evitar enfriamientos.\n4. Recuerda cepillarla antes de bañar para quitar el pelo suelto y evitar enredos."
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/vetVisitTips"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Frecuencia de Visitas al Veterinario:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/vetVisitInstructions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Lleva a tu mascota al veterinario al menos una vez al año.\n2. Si es un cachorro o un gatito, programar visitas cada 3-4 semanas.\n3. No dudes en consultar si observas cualquier comportamiento inusual.\n 4. Mantén al día sus vacunas y chequeos preventivos según las recomendaciones del veterinario."
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/affectionTips"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cómo Ser Cariñoso con Ellos:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/affectionInstructions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Dedica tiempo a jugar y acariciar a tu mascota.\n 2. Usa un tono de voz suave y amigable.\n3. Proporciónale un ambiente seguro y cómodo.\n4. Respeta su espacio personal y no fuerces el contacto si no lo desean."
+        android:textSize="16sp"
+        />
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Volver"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/purple_500"
+            android:textColor="@color/white"
+            android:padding="12dp"/>
+        <Button
+            android:id="@+id/VisitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Información Adicional"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/purple_500"
+            android:textColor="@color/white"
+            android:padding="12dp"/>
+    </LinearLayout>
+</RelativeLayout>
