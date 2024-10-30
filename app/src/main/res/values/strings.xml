@@ -89,6 +89,10 @@
     <string name="modifyConsultation">Para modificar una consulta existente introduce la fecha y la hora de la misma y, a continuación, dale a guardar</string>
 
 
+    <string name="Service">Servivios Adicionales</string>
+    <string name="Tips">Ver Consejos</string>
+    <string name="Chat">Chat</string>
+    <string name="adoption">Ver Adopciones</string>
     <string name="date_format">%1$d-%2$s-%3$s</string>
 
     <string name="title_activity_adopcion_screen">AdopcionScreen</string>
