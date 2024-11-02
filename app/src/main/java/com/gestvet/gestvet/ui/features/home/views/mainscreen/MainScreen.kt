@@ -140,17 +140,7 @@ private fun MainBottomNav(
             selected = selectedItem == 2,
             onClick = { navToSearch() }
         )
-        NavigationBarItem(
-            icon = {
-                Icon(
-                    Icons.Filled.Settings,
-                    contentDescription = stringResource(id = R.string.settings)
-                )
-            },
-            label = { Text(text = stringResource(id = R.string.settings)) },
-            selected = selectedItem == 3,
-            onClick = navToSettings
-        )
+
 
         NavigationBarItem(
             icon = {

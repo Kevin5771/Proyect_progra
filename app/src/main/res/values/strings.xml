@@ -97,7 +97,7 @@
     <string name="title_Service">Bienvenido a GetVet</string>
     <string name="optionService">Ver Servicios de Cuidado</string>
     <string name="date_format">%1$d-%2$s-%3$s</string>
-    <string name="textService">Salud de tu mascota con Expertos</string>
+    <string name="textService">Salud de tu mascota</string>
     <string name="title_activity_adopcion_screen">AdopcionScreen</string>
     <string name="title_activity_splash">Chat Entusiastas</string>
     <string name="name_desarrollador">GetVet Salud Animal</string>
