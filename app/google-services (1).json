@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "789977908824",
+    "project_id": "getapp-e5100",
+    "storage_bucket": "getapp-e5100.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:789977908824:android:ce78a4bfbfe24072ac2c2d",
+        "android_client_info": {
+          "package_name": "com.gestvet.gestvet"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsahNxvYVG7ufqyo7Y2nMbTPD6z3Atbgw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
