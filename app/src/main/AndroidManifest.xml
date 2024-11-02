@@ -15,7 +15,7 @@
         android:theme="@style/Theme.GestVet"
         tools:targetApi="31">
         <activity
-            android:name=".ui.features.home.views.adop.TipsActivity1"
+            android:name=".ui.features.home.views.tips.TipsActivity1"
             android:exported="true"
             />
         <activity
@@ -23,17 +23,21 @@
             android:exported="true"
             />
         <activity
-            android:name=".ui.features.home.views.chat.RegisterActivity"
-            android:exported="true" />
-        <activity
-            android:name=".ui.features.home.views.chat.Inicio"
-            android:exported="true"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity
             android:name=".ui.features.home.views.chat.LoginChat"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".ui.features.home.views.chat.ChatF"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
         <activity android:name=".ui.features.home.views.adop.AdopScreen" />
+        <activity android:name=".ui.features.service.ServiceHome" />
+        <activity android:name=".ui.features.home.views.Forum.Forum"
+            android:exported="true"/>
+        <activity android:name=".ui.features.service.ServiceListActivity" />
+        <activity android:name=".ui.features.home.views.Forum.CreatePostActivity"
+            android:exported="true"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"

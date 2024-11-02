@@ -88,16 +88,19 @@
     <string name="continueDelete">Se procederá a borrar el usuario y perderá el acceso a su cuenta y los datos asociados</string>
     <string name="modifyConsultation">Para modificar una consulta existente introduce la fecha y la hora de la misma y, a continuación, dale a guardar</string>
 
-
     <string name="Service">Servivios Adicionales</string>
     <string name="Tips">Ver Consejos</string>
     <string name="Chat">Chat</string>
     <string name="adoption">Ver Adopciones</string>
-    <string name="date_format">%1$d-%2$s-%3$s</string>
+    <string name="forum">Reseñas y Calificaciones</string>
 
+    <string name="title_Service">Bienvenido a GetVet</string>
+    <string name="optionService">Ver Servicios de Cuidado</string>
+    <string name="date_format">%1$d-%2$s-%3$s</string>
+    <string name="textService">Salud de tu mascota con Expertos</string>
     <string name="title_activity_adopcion_screen">AdopcionScreen</string>
     <string name="title_activity_splash">Chat Entusiastas</string>
-    <string name="name_desarrollador">GestVet Salud Animal</string>
+    <string name="name_desarrollador">GetVet Salud Animal</string>
 
     <string name="Btn_Registro">Registrarme</string>
     <string name="Btn_Login">Ingresar</string>

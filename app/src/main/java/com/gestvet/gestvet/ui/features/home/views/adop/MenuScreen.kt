@@ -19,7 +19,7 @@ fun MenuScreen(navController: NavController) {
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text("Adopciones App", style = MaterialTheme.typography.titleLarge, color = Color.White) },
+                title = { Text("Adopciones", style = MaterialTheme.typography.titleLarge, color = Color.White) },
                 colors = TopAppBarDefaults.smallTopAppBarColors(
                     containerColor = MaterialTheme.colorScheme.secondary, // Color de la AppBar
                     titleContentColor = MaterialTheme.colorScheme.secondary// Color del título

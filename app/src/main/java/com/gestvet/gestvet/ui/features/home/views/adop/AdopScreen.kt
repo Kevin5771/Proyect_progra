@@ -8,14 +8,19 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Pets
 import androidx.compose.material.icons.filled.Chat
 import androidx.compose.material.icons.filled.Lightbulb
+import androidx.compose.material.icons.filled.People
+import androidx.compose.material.icons.filled.ViewStream
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.gestvet.gestvet.R
+import com.gestvet.gestvet.ui.features.home.views.Forum.Forum
 import com.gestvet.gestvet.ui.features.home.views.chat.LoginChat
 import com.gestvet.gestvet.ui.features.home.views.tips.TipsActivity1
 import com.gestvet.gestvet.ui.features.service.ServiceHome
@@ -32,13 +37,13 @@ fun AdopScreen() {
             TopAppBar(
                 title = {
                     Text(
-                        "Adopciones",
+                        "Servicios",
                         style = MaterialTheme.typography.titleLarge
                     )
                 },
                 colors = TopAppBarDefaults.smallTopAppBarColors(
-                    containerColor = MaterialTheme.colorScheme.secondary, // Cambiado
-                    titleContentColor = MaterialTheme.colorScheme.onSecondary // Cambiado
+                    containerColor = MaterialTheme.colorScheme.secondary,
+                    titleContentColor = MaterialTheme.colorScheme.onSecondary
                 )
             )
         },
@@ -59,7 +64,7 @@ fun AdopScreen() {
                         modifier = Modifier.fillMaxWidth()
                     ) {
                         ActionButton(
-                            text = "Abrir Adopciones",
+                            text = stringResource(R.string.adoption),
                             icon = Icons.Default.Pets,
                             onClick = {
                                 activityContext?.let {
@@ -68,9 +73,19 @@ fun AdopScreen() {
                                 } ?: println("Error: Contexto no es una instancia de ComponentActivity")
                             }
                         )
+                        ActionButton(
+                            text = stringResource(R.string.forum),
+                            icon = Icons.Default.People,
+                            onClick = {
+                                activityContext?.let {
+                                    val intent = Intent(it, Forum::class.java)
+                                    it.startActivity(intent)
+                                } ?: println("Error: Contexto no es una instancia de ComponentActivity")
+                            }
+                        )
 
                         ActionButton(
-                            text = "Ir al Chat",
+                            text = stringResource(R.string.Chat),
                             icon = Icons.Default.Chat,
                             onClick = {
                                 activityContext?.let {
@@ -81,7 +96,7 @@ fun AdopScreen() {
                         )
 
                         ActionButton(
-                            text = "Ver Consejos",
+                            text = stringResource(R.string.Tips),
                             icon = Icons.Default.Lightbulb,
                             onClick = {
                                 activityContext?.let {
@@ -91,8 +106,8 @@ fun AdopScreen() {
                             }
                         )
                         ActionButton(
-                            text = "Ver Consejos",
-                            icon = Icons.Default.Lightbulb,
+                            text = stringResource(R.string.Service),
+                            icon = Icons.Default.ViewStream,
                             onClick = {
                                 activityContext?.let {
                                     val intent = Intent(it, ServiceHome::class.java)

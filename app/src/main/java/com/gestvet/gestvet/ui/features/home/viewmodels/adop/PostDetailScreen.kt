@@ -18,47 +18,53 @@ import com.gestvet.gestvet.ui.theme.GestVetTheme
 @Composable
 fun PostDetailScreen(viewModel: PostViewModel = viewModel()) {
     val post = viewModel.selectedPost ?: return
-
-    Scaffold(
-        topBar = {
-            TopAppBar(
-                title = { Text(post.nombre, style = MaterialTheme.typography.titleLarge) }, // Estilo del título
-                colors = TopAppBarDefaults.smallTopAppBarColors(
-                    containerColor = MaterialTheme.colorScheme.secondary, // Color de la AppBar
-                    titleContentColor = MaterialTheme.colorScheme.onSecondary // Color del título
+    GestVetTheme {
+        Scaffold(
+            topBar = {
+                TopAppBar(
+                    title = {
+                        Text(
+                            post.nombre,
+                            style = MaterialTheme.typography.titleLarge
+                        )
+                    }, // Estilo del título
+                    colors = TopAppBarDefaults.smallTopAppBarColors(
+                        containerColor = MaterialTheme.colorScheme.secondary, // Color de la AppBar
+                        titleContentColor = MaterialTheme.colorScheme.onSecondary // Color del título
+                    )
                 )
-            )
-        }
-    ) { paddingValues ->
-        Column(
-            modifier = Modifier
-                .padding(paddingValues)
-                .padding(16.dp) // Espaciado alrededor de los elementos
-                .fillMaxSize()
-        ) {
-            Text(
-                text = "Raza: ${post.raza}",
-                style = MaterialTheme.typography.bodyLarge.copy(fontSize = 20.sp), // Estilo para Raza
-                modifier = Modifier.padding(vertical = 8.dp) // Espaciado vertical
-            )
-            Text(
-                text = "Características: ${post.caracteristicas}",
-                style = MaterialTheme.typography.bodyLarge.copy(fontSize = 20.sp), // Estilo para Características
-                modifier = Modifier.padding(vertical = 8.dp) // Espaciado vertical
-            )
-            Text(
-                text = "Contacto: ${post.contacto}",
-                style = MaterialTheme.typography.bodyLarge.copy(fontSize = 20.sp), // Estilo para Contacto
-                modifier = Modifier.padding(vertical = 8.dp) // Espaciado vertical
-            )
-            post.imagen?.let {
-                Image(
-                    bitmap = it.asImageBitmap(),
-                    contentDescription = "Imagen de ${post.nombre}",
-                    modifier = Modifier
-                        .size(200.dp)
-                        .padding(top = 16.dp) // Espaciado superior
+            }
+        ) { paddingValues ->
+            Column(
+                modifier = Modifier
+                    .padding(paddingValues)
+                    .padding(16.dp) // Espaciado alrededor de los elementos
+                    .fillMaxSize()
+            ) {
+                Text(
+                    text = "Raza: ${post.raza}",
+                    style = MaterialTheme.typography.bodyLarge.copy(fontSize = 20.sp), // Estilo para Raza
+                    modifier = Modifier.padding(vertical = 8.dp) // Espaciado vertical
                 )
+                Text(
+                    text = "Características: ${post.caracteristicas}",
+                    style = MaterialTheme.typography.bodyLarge.copy(fontSize = 20.sp), // Estilo para Características
+                    modifier = Modifier.padding(vertical = 8.dp) // Espaciado vertical
+                )
+                Text(
+                    text = "Contacto: ${post.contacto}",
+                    style = MaterialTheme.typography.bodyLarge.copy(fontSize = 20.sp), // Estilo para Contacto
+                    modifier = Modifier.padding(vertical = 8.dp) // Espaciado vertical
+                )
+                post.imagen?.let {
+                    Image(
+                        bitmap = it.asImageBitmap(),
+                        contentDescription = "Imagen de ${post.nombre}",
+                        modifier = Modifier
+                            .size(200.dp)
+                            .padding(top = 16.dp) // Espaciado superior
+                    )
+                }
             }
         }
     }
