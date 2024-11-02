@@ -38,7 +38,7 @@
     <string name="birthDate">Fecha nacimiento</string>
     <string name="breed">Raza</string>
     <string name="chipNumber">Microchip</string>
-    <string name="passportNumber">Pasaporte</string>
+    <string name="passportNumber">Carnet</string>
     <string name="color">Color</string>
     <string name="neutered">Esterilizado</string>
     <string name="petTitle">Mascota</string>
